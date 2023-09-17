@@ -22,7 +22,6 @@ class SuperJobAPI(BaseAPI):
         :param job_title: Заголовок вакансии для поиска.
         :return: Список найденных вакансий.
         """
-        # url = f"{self._base_url}/vacancies/"
         headers = {
             "X-Api-App-Id": os.getenv("API_SUPERJOB_KEY")
         }
